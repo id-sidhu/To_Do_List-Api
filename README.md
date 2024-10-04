@@ -46,7 +46,8 @@ To_Do_List/
 ### **Step 1: Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/To_Do_List.git
+git clone https://github.com/id-sidhu/To_Do_List-Api.git
+cd To_Do_list-Api
 cd To_Do_List
 ```
 
@@ -72,17 +73,7 @@ pip install -r requirements.txt
 pip install django djangorestframework django-filter
 ```
 
-### **Step 4: Configure Environment Variables**
-
-If you're using any environment variables (like `SECRET_KEY` or database configurations), create a `.env` file in the project root. Here is an example:
-
-```
-SECRET_KEY=your_secret_key
-DEBUG=True
-ALLOWED_HOSTS=localhost,127.0.0.1
-```
-
-### **Step 5: Run Migrations**
+### **Step 4: Run Migrations**
 
 Apply the migrations to set up the database schema.
 
@@ -90,7 +81,7 @@ Apply the migrations to set up the database schema.
 python manage.py migrate
 ```
 
-### **Step 6: Create a Superuser**
+### **Step 5: Create a Superuser**
 
 To access the admin panel, create a superuser account:
 
@@ -98,7 +89,7 @@ To access the admin panel, create a superuser account:
 python manage.py createsuperuser
 ```
 
-### **Step 7: Run the Server**
+### **Step 6: Run the Server**
 
 Start the Django development server:
 
