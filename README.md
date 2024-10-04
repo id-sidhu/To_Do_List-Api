@@ -114,11 +114,11 @@ Visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your web browser to ac
 
 The main endpoints of the To-Do List API are as follows:
 
-- **GET /tasks/**: Retrieve all tasks (with filtering, searching, and ordering support).
-- **POST /tasks/**: Create a new task.
-- **GET /tasks/<id>/**: Retrieve details of a specific task.
-- **PUT /tasks/<id>/**: Update an existing task.
-- **DELETE /tasks/<id>/**: Delete a specific task.
+- **GET /tasks/tasks**: Retrieve all tasks (with filtering, searching, and ordering support).
+- **POST /tasks/tasks**: Create a new task.
+- **GET /tasks/tasks/<id>/**: Retrieve details of a specific task.
+- **PUT /tasks/tasks/<id>/**: Update an existing task.
+- **DELETE /tasks/tasks/<id>/**: Delete a specific task.
 
 ### **Authentication**
 
