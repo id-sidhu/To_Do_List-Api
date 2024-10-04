@@ -67,7 +67,7 @@ Make sure to have `pip` installed, then run:
 pip install -r requirements.txt
 ```
 
-> **Note**: If `requirements.txt` is missing, manually install dependencies like Django and Django REST Framework:
+> **Note**: If `requirements.txt` is not working, manually install dependencies like Django and Django REST Framework:
 ```bash
 pip install django djangorestframework django-filter
 ```
