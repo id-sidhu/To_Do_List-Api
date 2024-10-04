@@ -1,0 +1,41 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+venv.bak/
+*.env  # Important: Hide .env file if you use environment variables
+
+# Django
+db.sqlite3  # If you're using SQLite, avoid uploading the database file
+*.log
+*.pot
+*.pyc
+*.so
+*.cover
+*.coverage
+.coverage.*
+.cache
+.pytest_cache/
+celerybeat-schedule
+celerybeat.pid
+*.mo
+
+# Migrations
+migrations/
+
+# Media & static files (if generated at runtime)
+media/
+staticfiles/
+
+# VSCode and other editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Secrets and settings
+settings_local.py  # If you have local settings, make sure to keep them private
